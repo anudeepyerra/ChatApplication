@@ -14,6 +14,8 @@ import {HttpErrorResponse,HttpParams } from '@angular/common/http';
 })
 export class AppService {
 
+  
+  
   private url = 'https://chatapi.edwisor.com';
 
   constructor(public http: HttpClient) { }
